@@ -4,6 +4,7 @@ import Partner from "../../components/Partner/Partner";
 import Community from "../../components/Community/Community";
 import Unlock from "../../components/Unlock/Unlock";
 import Achievements from "../../components/Achievements/Achievements";
+import Calender from "../../components/Calender/Calender";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Community />
       <Unlock />
       <Achievements />
+      <Calender />
     </>
   );
 };
