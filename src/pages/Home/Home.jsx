@@ -5,6 +5,7 @@ import Community from "../../components/Community/Community";
 import Unlock from "../../components/Unlock/Unlock";
 import Achievements from "../../components/Achievements/Achievements";
 import Calender from "../../components/Calender/Calender";
+import Customers from "../../components/Customers/Customers";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Unlock />
       <Achievements />
       <Calender />
+      <Customers />
     </>
   );
 };
