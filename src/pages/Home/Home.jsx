@@ -6,6 +6,7 @@ import Unlock from "../../components/Unlock/Unlock";
 import Achievements from "../../components/Achievements/Achievements";
 import Calender from "../../components/Calender/Calender";
 import Customers from "../../components/Customers/Customers";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Achievements />
       <Calender />
       <Customers />
+      <Footer />
     </>
   );
 };

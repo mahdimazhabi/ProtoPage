@@ -8,6 +8,7 @@ export default {
         coustomwhiteColors: "#F5F7FA",
         coustomZinkColors: "#4D4D4D",
         coustomGrayColors: "#717171",
+        coustomebackgroundfooter: "#263238",
       },
     },
   },
