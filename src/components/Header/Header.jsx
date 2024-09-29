@@ -39,10 +39,10 @@ const Header = () => {
           <img
             src={logo}
             alt="logo"
-            className="w-[500px] h-[24px] md:w-[154px] flex-shrink-0"
+            className="w-[154px] h-[24px] md:w-[154px] flex-shrink-0"
           />
         </div>
-        <div className=" md:flex overflow-x-auto scrollbar-custom">
+        <div className=" md:flex hidden">
           <ul className="flex space-x-6 md:space-x-14">
             {HeaderList.map((item) => (
               <li
