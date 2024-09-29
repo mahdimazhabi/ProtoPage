@@ -28,11 +28,11 @@ const Partner = () => {
             We have been working with some Fortune 500+ clients
           </span>
         </div>
-        <div className="flex justify-center space-x-[136px] mt-8">
+        <div className="grid grid-cols-3 gap-y-8  sm:grid-cols-3 lg:flex justify-center items-center  mt-8">
           {Clients.map((client) => (
             <img
               key={client.id}
-              className="w-12 h-12"
+              className="w-12 h-12 sm:w-16 sm:h-16 mx-auto lg:w-12 lg:h-12"
               src={client.img}
               alt={`Client ${client.id}`}
             />

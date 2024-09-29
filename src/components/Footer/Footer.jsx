@@ -12,7 +12,7 @@ const Footer = () => {
     <section>
       <div>
         <div className="flex flex-col justify-center items-center text-center mt-12 px-4 py-8">
-          <h1 className="text-6xl font-semibold text-zinc-800  ">
+          <h1 className="lg:text-6xl font-semibold text-zinc-800  ">
             Pellentesque suscipit{" "}
             <span className="block leading-[7rem] ">fringilla libero eu.</span>
           </h1>

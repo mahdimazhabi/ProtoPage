@@ -7,7 +7,7 @@ const Community = () => {
     <section className="mt-32 mb-11">
       <div>
         <div className="mb-4">
-          <h1 className=" text-coustomZinkColors text-center text-4xl  ">
+          <h1 className=" text-coustomZinkColors text-center font-bold text-4xl  ">
             Manage your entire community{" "}
             <span className="block">in a single system</span>
           </h1>
@@ -16,9 +16,9 @@ const Community = () => {
           </p>
         </div>
 
-        <div className="flex justify-center space-x-[127.5px]">
+        <div className="lg:flex justify-center space-y-8 lg:space-y-0 lg:px-[144px] ">
           {/* Membership Organisations */}
-          <div className="w-[251px]  py-6 px-1  rounded-lg shadow">
+          <div className="w-[251px] mx-auto  py-6 px-1  rounded-lg shadow">
             <div className="flex justify-center mb-4">
               <img
                 src={icon1}
@@ -36,7 +36,7 @@ const Community = () => {
           </div>
 
           {/* National Associations */}
-          <div className="w-[251px] py-6 px-1  rounded-lg shadow">
+          <div className="w-[251px] mx-auto py-6 px-1  rounded-lg shadow">
             <div className="flex justify-center mb-4">
               <img
                 src={icon2}
@@ -54,7 +54,7 @@ const Community = () => {
           </div>
 
           {/* Clubs And Groups */}
-          <div className="w-[251px] py-6 px-1  rounded-lg shadow">
+          <div className="w-[251px] mx-auto py-6 px-1  rounded-lg shadow">
             <div className="flex justify-center mb-4">
               <img
                 src={icon3}
